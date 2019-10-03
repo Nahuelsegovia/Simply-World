@@ -20,16 +20,16 @@
 
         <div class="menu">
           <nav>
-            <a href="#Inicio">Inicio</a>
-            <a href="#Inicio">Nosotros</a>
-            <a href="#Inicio">Trabajos</a>
-            <a href="#Inicio">Contacto</a>
+            <a href="index.html">Inicio</a>
+            <a href="index.html#weAre">Nosotros</a>
+            <a href="index.html#image-collage">Trabajos</a>
+            <a href="index.html#contact">Contacto</a>
           </nav>
         </div>
 
       </header>
 
-      <div class="weAre">
+      <div class="weAre" id="weAre">
         <h2>Somos una agencia de creación de contenido.</h2>
         <p>Junto a nuestro equipo creamos soluciones de contenido para marcas,</br> creemos en el diseño
       como la máxima expresión del arte</br> y... en hacer más y hablar menos.
@@ -47,22 +47,70 @@
             <a href="#Inicio">Templates</a>
         </div>
 
-        <div class="image-collage">
-          <img class="imagenes" src="images/imagen1.jpg" alt="imagen 1">
-          <img class="imagenes" src="images/imagen2.jpg" alt="imagen 2">
-          <img class="imagenes" src="images/imagen3.jpg" alt="imagen 3">
-          <img class="imagenes" src="images/imagen4.jpg" alt="imagen 4">
-          <img class="imagenes" src="images/imagen5.jpg" alt="imagen 5">
-          <img class="imagenes" src="images/imagen6.jpg" alt="imagen 6">
-          <img class="imagenes" src="images/imagen7.jpg" alt="imagen 7">
-          <img class="imagenes" src="images/imagen8.jpg" alt="imagen 8">
-          <img class="imagenes" src="images/imagen9.jpg" alt="imagen 9">
+        <div class="image-collage" id="image-collage">
+
+            <div class="tama-imagen">
+              <img class="imagenes" src="images/imagen1.jpg" alt="imagen 1">
+            </div>
+
+            <div class="tama-imagen">
+              <img class="imagenes" src="images/imagen2.jpg" alt="imagen 2">
+            </div>
+
+            <div class="tama-imagen">
+              <img class="imagenes" src="images/imagen3.jpg" alt="imagen 3">
+            </div>
+
+            <div class="tama-imagen">
+              <img class="imagenes" src="images/imagen4.jpg" alt="imagen 4">
+            </div>
+
+            <div class="tama-imagen">
+              <img class="imagenes" src="images/imagen5.jpg" alt="imagen 5">
+            </div>
+
+            <div class="tama-imagen">
+              <img class="imagenes" src="images/imagen6.jpg" alt="imagen 6">
+            </div>
+
+            <div class="tama-imagen">
+              <img class="imagenes" src="images/imagen7.jpg" alt="imagen 7">
+            </div>
+
+            <div class="tama-imagen">
+              <img class="imagenes" src="images/imagen8.jpg" alt="imagen 8">
+            </div>
+
+            <div class="tama-imagen">
+              <img class="imagenes" src="images/imagen9.jpg" alt="imagen 9">
+            </div>
+
         </div>
 
         <div class="pre-footer">
         <p>Creemos en el desarollo de empresas sustentables, por eso las empresas B<br>
         <span>van a poder acceder a un descuento del 15% en todos nuestros servicios.</span> </p>
         <a href="#Descuento">SABER MÁS</a>
+        </div>
+
+        <div class="contact" id="contact">
+          <p>Contactanos para recibir más información :)</p> <br>
+          <form class="formulario" action="#" method="post">
+            <input class="formText" type="text" placeholder="Poné tu nombre" name="nombre">
+            <br>
+            <br>
+            <input class="formText" type="text" placeholder="Poné tu apellido" name="apellido">
+            <br>
+            <br>
+            <input class="formText" type="email" placeholder="Poné tu tucorreo" name="correo">
+            <br>
+            <br>
+            <input class="formText TextArea" type="text" placeholder="Tu mensaje" name="correo">
+            <br>
+            <br>
+            <input class="boton" type="submit" name="send" value="Enviar">
+
+          </form>
         </div>
       </main>
 

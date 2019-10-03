@@ -96,21 +96,36 @@ header{
 
 /* Contenido principal  Image Collage*/
 
-.image-collage{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-
-}
 .imagenes{
-  width:350px;
-  height: 150px;
-  margin: 10px;
+  width: 100%;
   filter: grayscale(10);
+  margin: 10px;
 }
 
 .imagenes:hover{
   filter: grayscale(0);
+}
+
+.image-collage{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  object-fit: cover;
+
+}
+
+.tama-imagen{
+  display: flex;
+  flex-direction: row;
+  /*width: 330px;
+  height: 180px;*/
+  height: 220px;
+  width: 350px;
+  margin: 10px;
+  object-fit: cover;
+
+
 }
 
 
@@ -122,6 +137,7 @@ header{
   justify-content: center;
   align-items: center;
   padding: 40px;
+  margin-top: 30px;
   background: #f6f6f5;
 }
 
@@ -148,12 +164,69 @@ header{
   background: red;
 }
 
+
+/* contacto */
+
+form {
+  border: 1px solid #00d1b2;
+  padding: 30px;
+}
+
+.contact{
+  padding: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Montserrat', sans-serif;
+  color: grey;
+  margin-bottom: 5px;
+
+}
+
+.contact .formText{
+  min-width: 400px;
+  height: 30px;
+  font-size: 20px;
+  padding: 10px;
+  margin: 10px;
+  border: none;
+  border-bottom: 1px groove black;
+
+}
+
+.contact .TextArea{
+  min-width: 400px;
+  height: 100px;
+}
+
+.contact .boton{
+  min-width: 170px;
+  height: 40px;
+  margin-top: 10px;
+  margin-left: 10px;
+  border-radius: 3px;
+  background: #00d1b2;
+  color: white;
+
+}
+
+.contact .boton:hover{
+  background: red;
+}
+
+.contact p {
+  font-size: 23px;
+}
+
+/* footer */
 footer{
   height: 100px;
   font-family: 'Montserrat', sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
+  background: #f6f6f5;
 }
 
 footer p:hover{
