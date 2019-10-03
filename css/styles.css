@@ -1,0 +1,161 @@
+header{
+  height: 50px;
+}
+
+.site-wraper{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.principal-content{
+  flex: 1;
+}
+
+/* Header con menu y logo */
+
+header{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+}
+
+
+.logo{
+  width: 200px;
+  font-family: 'Abel', sans-serif;
+  color: grey;
+}
+
+.logo:hover{
+  color: red;
+  transition: 2s;
+}
+
+.menu{
+  width: 300px;
+  /*font-family: 'Roboto Mono', monospace;*/
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+}
+
+.menu a {
+  margin: 4px;
+  text-decoration: none;
+  color: black;
+  color: grey;
+}
+
+.menu a:hover{
+  color: red;
+  transition: 2s;
+}
+
+/* Nosotros */
+.weAre{
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-self: center;
+  font-family: 'Playfair Display', serif;
+}
+
+.weAre h2{
+  letter-spacing: 3px;
+  font-size: 30px;
+}
+
+
+.weAre p{
+  font-size: 20px;
+  color: grey;
+}
+
+/* Contenido principal */
+
+.principal-content .menu2 {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+.principal-content .menu2 a {
+  margin: 15px;
+  text-decoration: none;
+  color: grey;
+}
+
+.principal-content .menu2 a:hover {
+  color: red;
+  transition: 2s;
+}
+
+/* Contenido principal  Image Collage*/
+
+.image-collage{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+.imagenes{
+  width:350px;
+  height: 150px;
+  margin: 10px;
+  filter: grayscale(10);
+}
+
+.imagenes:hover{
+  filter: grayscale(0);
+}
+
+
+/* Contenido principal  pre-footer*/
+
+.pre-footer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  background: #f6f6f5;
+}
+
+.pre-footer p{
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+  color: grey;
+}
+
+.pre-footer a{
+  display: flex;
+  width: 150px;
+  height: 40px;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2px;
+  background: #00d1b2;
+}
+
+.pre-footer a:hover{
+  background: red;
+}
+
+footer{
+  height: 100px;
+  font-family: 'Montserrat', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer p:hover{
+  color: red;
+}
